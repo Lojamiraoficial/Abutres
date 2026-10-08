@@ -1,7 +1,29 @@
-body { background: #0a0a0a; color: white; font-family: Arial; margin: 0; text-align: center; }
-header { padding: 30px; border-bottom: 2px solid #ff0000; }
-h1 { font-size: 50px; letter-spacing: 5px; margin: 0; }
-.banner { padding: 80px 20px; background: linear-gradient(to bottom, #1a1a1a, #000); }
-button { background: #ff0000; color: white; border: none; padding: 15px 30px; font-weight: bold; cursor: pointer; margin-top: 20px; }
-.produtos { display: flex; justify-content: center; gap: 20px; padding: 40px; flex-wrap: wrap; }
-.card { background: #1a1a1a; padding: 30px; border: 1px solid #333; width: 200px; }
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif}
+body{background:#0a0a0a;color:#fff}
+.top-bar{background:#cc0000;text-align:center;padding:6px;font-size:11px;letter-spacing:2px;font-weight:bold}
+header{text-align:center;padding:60px 20px;border-bottom:2px solid #cc0000}
+header h1{font-size:70px;letter-spacing:8px}
+header h2{font-size:20px;letter-spacing:10px;color:#cc0000;margin-top:-10px}
+.frase{margin-top:30px;font-style:italic;color:#aaa;line-height:1.6}
+section{padding:60px 20px;max-width:1000px;margin:0 auto}
+section h3{color:#cc0000;letter-spacing:4px;margin-bottom:20px;text-align:center;font-size:22px}
+.quem p{color:#ccc;line-height:1.8;text-align:center;max-width:700px;margin:10px auto}
+.stats{display:flex;justify-content:center;gap:60px;margin-top:40px}
+.stats b{display:block;font-size:32px;color:#fff}
+.stats span{color:#cc0000;font-size:12px;letter-spacing:2px}
+.significado{background:#111}
+.cards{display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin-top:20px}
+.card{background:#1a1a1a;border:1px solid #333;padding:25px;width:280px;text-align:center}
+.card b{color:#cc0000;font-size:22px;display:block;margin-bottom:10px}
+.card p{color:#aaa;font-size:14px;line-height:1.5}
+.produtos{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+.prod{background:#1a1a1a;border:1px solid #222;padding:20px;width:280px;text-align:center}
+.btn-insta{display:block;width:220px;margin:30px auto;background:#cc0000;color:#fff;text-align:center;padding:14px;text-decoration:none;font-weight:bold;letter-spacing:1px}
+footer{text-align:center;padding:40px;background:#000;color:#666;font-size:12px;border-top:1px solid #222}
+footer a{color:#cc0000;text-decoration:none}
+#chat-btn{position:fixed;bottom:20px;right:20px;background:#cc0000;color:#fff;padding:14px 20px;border-radius:30px;cursor:pointer;font-weight:bold;z-index:999;box-shadow:0 0 20px #cc0000}
+#chat-box{position:fixed;bottom:80px;right:20px;width:320px;background:#111;border:1px solid #cc0000;border-radius:10px;overflow:hidden;z-index:999}
+#chat-head{background:#cc0000;padding:12px;font-weight:bold;font-size:14px}
+#chat-msg{height:250px;overflow-y:auto;padding:15px;font-size:13px;line-height:1.5}
+#chat-msg p{margin-bottom:12px}
+#chat-input{width:100%;padding:12px;background:#000;border:none;border-top:1px solid #333;color:#fff;outline:none}
