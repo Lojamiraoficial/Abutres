@@ -1,0 +1,7 @@
+body { background: #0a0a0a; color: white; font-family: Arial; margin: 0; text-align: center; }
+header { padding: 30px; border-bottom: 2px solid #ff0000; }
+h1 { font-size: 50px; letter-spacing: 5px; margin: 0; }
+.banner { padding: 80px 20px; background: linear-gradient(to bottom, #1a1a1a, #000); }
+button { background: #ff0000; color: white; border: none; padding: 15px 30px; font-weight: bold; cursor: pointer; margin-top: 20px; }
+.produtos { display: flex; justify-content: center; gap: 20px; padding: 40px; flex-wrap: wrap; }
+.card { background: #1a1a1a; padding: 30px; border: 1px solid #333; width: 200px; }
